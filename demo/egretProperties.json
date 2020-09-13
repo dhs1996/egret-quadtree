@@ -1,0 +1,44 @@
+{
+  "native": {
+    "path_ignore": []
+  },
+  "publish": {
+    "web": 0,
+    "native": 1,
+    "path": "bin-release"
+  },
+  "template": {},
+  "modules": [
+    {
+      "name": "egret",
+      "path": "${EGRET_DEFAULT}"
+    },
+    {
+      "name": "tween",
+      "path": "${EGRET_DEFAULT}"
+    },
+    {
+      "name": "eui",
+      "path": "${EGRET_DEFAULT}"
+    },
+    {
+      "name": "res",
+      "path": "${EGRET_DEFAULT}"
+    },
+    {
+      "name": "game",
+      "path": "${EGRET_DEFAULT}"
+    },
+    {
+      "name": "quadtree",
+      "path": "../libsrc"
+    }
+  ],
+  "engineVersion": "5.3.7",
+  "compilerVersion": "5.3.7",
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins"
+    ]
+  }
+}
